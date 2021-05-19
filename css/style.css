@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER  */
+.title{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.logo{
+    padding-top: 8px;
+    width: 170px;
+}
+
+.title h2{
+    font-size: 19px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.menu{
+    list-style-type: none;
+    border-bottom: 2px solid grey;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.active{
+    border-bottom: 3px solid #3367D6;
+    color: #3367D6;
+}
+
+/* MAIN  */
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.QeA{
+    margin-top: 40px;
+}
+main h3{
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+main p{
+    line-height: 25px;
+}
+main p a{
+    color:#3367D6;
+    cursor: pointer;
+}
+main p a:hover{
+    text-decoration: underline;
+}
